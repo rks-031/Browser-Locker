@@ -1,0 +1,42 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
+  "author": "BasketHunt",
+  "background": {
+    "scripts": ["js/util.js", "js/notification.js", "js/bg.js", "js/start.js"]
+  },
+  "content_security_policy": "script-src 'self' https://*.google.com https://*.gstatic.com https://*.google-analytics.com; object-src 'self'",
+  "default_locale": "en",
+  "description": "This extension allows you to lock your browser after a specified period of inactivity.",
+  "icons": {
+    "120": "Lock/lock-120.png",
+    "96": "Lock/lock-96.png",
+    "32": "Lock/lock-32.png",
+    "16": "Lock/lock-16.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "49",
+  "name": "BasketHunt Browser Locker",
+  "options_page": "html/options.html",
+  "commands": {
+    "lock-the-browser": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Press to lock your browser"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "notifications",
+    "contextMenus",
+    "storage",
+    "unlimitedStorage",
+    "history",
+    "*://worker.indiryo.com/",
+    "*://google.com/*"
+  ],
+  "short_name": "Browser Locker",
+  "version": "1.0.7"
+}
