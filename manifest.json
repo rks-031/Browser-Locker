@@ -9,11 +9,11 @@
   "default_locale": "en",
   "description": "This extension allows you to lock your browser after a specified period of inactivity.",
   "icons": {
-    "128": "logos/128-logo.png",
-    "16": "logos/16-logo.png",
-    "24": "logos/24-logo.png",
-    "48": "logos/48-logo.png",
-    "64": "logos/64-logo.png"
+    "128": "logos/lock-94.png",
+    "16": "logos/lock-94.png",
+    "24": "logos/lock-94.png",
+    "48": "logos/lock-94.png",
+    "64": "logos/lock-94.png"
   },
   "manifest_version": 2,
   "minimum_chrome_version": "49",
