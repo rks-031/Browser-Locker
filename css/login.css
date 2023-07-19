@@ -8,8 +8,9 @@ body {
     overflow: hidden;
     width: 100%;
     font-size: 100%;
-    color: var(--siyah);
+    color: black;
 }
+
 
 /* Login Screen*/
 .root {
@@ -18,7 +19,7 @@ body {
 }
 
 .article {
-    background-color: var(--beyaz);
+    background: linear-gradient(to bottom, #232526, #414345);
     padding: 25px 20px 25px 20px;
     max-height: 100%;
     height: 100%;
@@ -32,8 +33,8 @@ body {
 }
 
 .logo__sphere {
-    width: 120px;
-    height: 120px;
+    width: 98px;
+    height: 100px;
     background: var(--beyaz);
     border: var(--cizgi);
     border-radius: 50%;
@@ -82,11 +83,12 @@ body {
 
 .tarayici__pwd {
     background-color: transparent;
-    color: var(--siyah);
+    color: white;
     padding: 0;
     margin: 0;
     border: var(--cizgi);
     border-radius: 50px;
+    border: 1px solid white;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -114,8 +116,9 @@ input[type="password"]:disabled {
     border-radius: 50px;
     padding: 0;
     margin: 25px 0 0 0;
-    border: var(--cizgi);
-    background: var(--butonArka);
+    border: 1px solid white;
+    /* background: var(--butonArka); */
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -164,7 +167,7 @@ input[type="password"]:disabled {
 }
 
 .slider__effect:hover {
-    background: var(--butonHoverArka);
+    background: linear-gradient(to left, #fc4a1a, #f7b733);
 }
 
 .slider__effect span,
@@ -263,7 +266,7 @@ input[type="password"]:disabled {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    color: var(--siyah);
+    color: #fc4a1a;
     right: 40px;
     font-size: 1.4rem;
     font-family: FontAwesome;
@@ -275,7 +278,7 @@ input[type="password"]:disabled {
 
 .validate-area:not(.alert) .show_password:hover:after {
     content: "\f06e";
-    color: var(--sari);
+    color: #fc4a1a;
 
 }
 
@@ -370,7 +373,7 @@ input[type="password"]:disabled {
 .bars__location i {
     font-size: 2em;
     cursor: pointer;
-    color: var(--siyah);
+    color: #fc4a1a;
     transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
     width: 100%;
     position: relative;
@@ -382,7 +385,7 @@ input[type="password"]:disabled {
     top: 0;
     text-align: right;
     transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
-    color: var(--kirmizi);
+    color: #fc4a1a;
 }
 
 .bars__location i.kapali::before {
@@ -398,6 +401,7 @@ input[type="password"]:disabled {
     display: flex;
     justify-content: center;
     width: 100%;
+
 }
 
 .form__container {
@@ -535,6 +539,20 @@ input[type="password"]:disabled {
     width: 15px;
     height: 15px;
     opacity: 1;
+}
+
+footer {
+    background-color: #011627;
+    color: #e45c07;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
 }
 
 @keyframes scale {
