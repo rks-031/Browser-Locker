@@ -5,9 +5,11 @@
 .disabled {
     display: none !important;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 html,
 body {
     margin: 0;
@@ -22,7 +24,7 @@ body {
 }
 
 .options {
-    background: linear-gradient(62deg, var(--aqua) 0%, var(--pembe) 100%);
+    background: linear-gradient(to top, #c02425, #f0cb35);
     width: 100%;
     height: 100%;
     top: 0;
@@ -45,7 +47,7 @@ body {
     width: 60%;
 }
 
-.secenek_divleri{
+.secenek_divleri {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -235,17 +237,18 @@ input[type=password]:focus {
     cursor: pointer;
 }
 
-.email__aciklama{
+.email__aciklama {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.email__aciklama p{
+
+.email__aciklama p {
     margin-right: 5px;
 }
 
-.email__aciklama b{
+.email__aciklama b {
     color: var(--sari);
 }
 
@@ -364,7 +367,7 @@ input:checked+.slider:before {
     position: relative;
 }
 
-.validate-area:not(.alert) .show_password::after{
+.validate-area:not(.alert) .show_password::after {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -375,13 +378,13 @@ input:checked+.slider:before {
     font-weight: 300;
     content: "\f070";
     z-index: 2;
-    
+
 }
 
-.validate-area:not(.alert) .show_password:hover:after{
+.validate-area:not(.alert) .show_password:hover:after {
     content: "\f06e";
     color: var(--sari);
-    
+
 }
 
 

@@ -12,6 +12,7 @@
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     to {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -23,6 +24,7 @@
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     to {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -107,120 +109,144 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 @-webkit-keyframes type-blue {
+
     1%,
     100% {
         border-color: #3498db;
     }
+
     50% {
         border-color: #5faee3;
     }
 }
 
 @keyframes type-blue {
+
     1%,
     100% {
         border-color: #3498db;
     }
+
     50% {
         border-color: #5faee3;
     }
 }
 
 @-webkit-keyframes type-green {
+
     1%,
     100% {
         border-color: #2ecc71;
     }
+
     50% {
         border-color: #54d98c;
     }
 }
 
 @keyframes type-green {
+
     1%,
     100% {
         border-color: #2ecc71;
     }
+
     50% {
         border-color: #54d98c;
     }
 }
 
 @-webkit-keyframes type-red {
+
     1%,
     100% {
         border-color: #e74c3c;
     }
+
     50% {
         border-color: #ed7669;
     }
 }
 
 @keyframes type-red {
+
     1%,
     100% {
         border-color: #e74c3c;
     }
+
     50% {
         border-color: #ed7669;
     }
 }
 
 @-webkit-keyframes type-orange {
+
     1%,
     100% {
         border-color: #f1c40f;
     }
+
     50% {
         border-color: #f4d03f;
     }
 }
 
 @keyframes type-orange {
+
     1%,
     100% {
         border-color: #f1c40f;
     }
+
     50% {
         border-color: #f4d03f;
     }
 }
 
 @-webkit-keyframes type-purple {
+
     1%,
     100% {
         border-color: #9b59b6;
     }
+
     50% {
         border-color: #b07cc6;
     }
 }
 
 @keyframes type-purple {
+
     1%,
     100% {
         border-color: #9b59b6;
     }
+
     50% {
         border-color: #b07cc6;
     }
 }
 
 @-webkit-keyframes type-dark {
+
     1%,
     100% {
         border-color: #34495e;
     }
+
     50% {
         border-color: #46627f;
     }
 }
 
 @keyframes type-dark {
+
     1%,
     100% {
         border-color: #34495e;
     }
+
     50% {
         border-color: #46627f;
     }
@@ -429,7 +455,7 @@ body[class*=jconfirm-no-scroll-] {
     padding-bottom: 11px;
 }
 
-.jconfirm .jconfirm-box .jconfirm-buttons > button {
+.jconfirm .jconfirm-box .jconfirm-buttons>button {
     margin-bottom: 4px;
     margin-left: 2px;
     margin-right: 2px;
@@ -713,22 +739,26 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 @-webkit-keyframes shake {
+
     10%,
     90% {
         -webkit-transform: translate3d(-2px, 0, 0);
         transform: translate3d(-2px, 0, 0);
     }
+
     20%,
     80% {
         -webkit-transform: translate3d(4px, 0, 0);
         transform: translate3d(4px, 0, 0);
     }
+
     30%,
     50%,
     70% {
         -webkit-transform: translate3d(-8px, 0, 0);
         transform: translate3d(-8px, 0, 0);
     }
+
     40%,
     60% {
         -webkit-transform: translate3d(8px, 0, 0);
@@ -737,22 +767,26 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 @keyframes shake {
+
     10%,
     90% {
         -webkit-transform: translate3d(-2px, 0, 0);
         transform: translate3d(-2px, 0, 0);
     }
+
     20%,
     80% {
         -webkit-transform: translate3d(4px, 0, 0);
         transform: translate3d(4px, 0, 0);
     }
+
     30%,
     50%,
     70% {
         -webkit-transform: translate3d(-8px, 0, 0);
         transform: translate3d(-8px, 0, 0);
     }
+
     40%,
     60% {
         -webkit-transform: translate3d(8px, 0, 0);
@@ -761,11 +795,13 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 @-webkit-keyframes glow {
+
     0%,
     100% {
         -webkit-box-shadow: 0 0 0px red;
         box-shadow: 0 0 0px red;
     }
+
     50% {
         -webkit-box-shadow: 0 0 30px red;
         box-shadow: 0 0 30px red;
@@ -773,11 +809,13 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 @keyframes glow {
+
     0%,
     100% {
         -webkit-box-shadow: 0 0 0px red;
         box-shadow: 0 0 0px red;
     }
+
     50% {
         -webkit-box-shadow: 0 0 30px red;
         box-shadow: 0 0 30px red;
@@ -936,7 +974,7 @@ body[class*=jconfirm-no-scroll-] {
     font-weight: normal;
 }
 
-.jconfirm.jconfirm-supervan .jconfirm-box div.jconfirm-title-c > * {
+.jconfirm.jconfirm-supervan .jconfirm-box div.jconfirm-title-c>* {
     padding-bottom: 25px;
 }
 
@@ -1130,7 +1168,7 @@ body[class*=jconfirm-no-scroll-] {
     padding: 10px 20px;
 }
 
-.jconfirm.jconfirm-modern .jconfirm-box .jconfirm-buttons button + button {
+.jconfirm.jconfirm-modern .jconfirm-box .jconfirm-buttons button+button {
     margin-left: 4px;
 }
 
