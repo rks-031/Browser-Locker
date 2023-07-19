@@ -9,7 +9,7 @@
     "message": "Just make sure that you don't forget your password!"
   },
   "uygulama_baslik": {
-    "message": "Browser Lock | Lock Your Browser"
+    "message": "BasketHunt Browser Locker"
   },
   "sifre_gir_uyari": {
     "message": "Enter your password"
@@ -109,9 +109,6 @@
   },
   "gizli_pencere": {
     "message": "For maximum safety, allow Browser Lock to work in incognito mode."
-  },
-  "bizi_puanla": {
-    "message": "If you like Browser Lock, support me on my patreon ♥"
   },
   "eposta_adresin": {
     "message": "Your Email:"
