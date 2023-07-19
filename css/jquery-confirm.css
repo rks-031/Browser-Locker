@@ -251,7 +251,7 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 .jconfirm .jconfirm-box.jconfirm-type-blue {
-    border-top: solid 7px #3498db;
+    border-top: solid 7px #071118;
     -webkit-animation-name: type-blue;
     animation-name: type-blue;
 }
@@ -480,7 +480,7 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 .jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue {
-    background-color: #3498db;
+    background-color: #071118;
     color: #FFF;
     text-shadow: none;
     -webkit-transition: background .2s;
@@ -488,7 +488,7 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 .jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue:hover {
-    background-color: #2980b9;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
     color: #FFF;
 }
 
@@ -501,7 +501,7 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 .jconfirm .jconfirm-box .jconfirm-buttons button.btn-green:hover {
-    background-color: #27ae60;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
     color: #FFF;
 }
 
@@ -575,7 +575,7 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 .jconfirm .jconfirm-box.jconfirm-type-blue .jconfirm-title-c .jconfirm-icon-c {
-    color: #3498db !important;
+    color: #071118 !important;
 }
 
 .jconfirm .jconfirm-box.jconfirm-type-green .jconfirm-title-c .jconfirm-icon-c {
