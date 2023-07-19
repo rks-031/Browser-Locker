@@ -514,6 +514,7 @@ input[type="password"]:disabled {
 .recaptcha__text span {
     font-weight: 300;
     font-size: 0.85em;
+    color: white;
 }
 
 .recaptcha__text span b {
