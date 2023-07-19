@@ -20,9 +20,6 @@
   "geri_sayim": {
     "message": "To try again, wait <b id='count__ss'></b> seconds!"
   },
-  "created_by": {
-    "message": "Created by HumblDump | Support Me"
-  },
   "tarayici_sifresi": {
     "message": "Browser password"
   },
@@ -207,6 +204,6 @@
     "message": "Url has been added, after login in url will open automatically."
   },
   "sifre_unuttum": {
-    "message": "Did you lost your password?"
+    "message": "Did you lose your password?"
   }
 }
