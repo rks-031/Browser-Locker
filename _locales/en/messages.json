@@ -1,0 +1,212 @@
+{
+  "yeni_sifre": {
+    "message": "New password"
+  },
+  "yeni_sifre_tekrar": {
+    "message": "New password again"
+  },
+  "sifreyi_unutma": {
+    "message": "Just make sure that you don't forget your password!"
+  },
+  "uygulama_baslik": {
+    "message": "Browser Lock | Lock Your Browser"
+  },
+  "sifre_gir_uyari": {
+    "message": "Enter your password"
+  },
+  "oturum_ac_buton": {
+    "message": "Sign In"
+  },
+  "geri_sayim": {
+    "message": "To try again, wait <b id='count__ss'></b> seconds!"
+  },
+  "created_by": {
+    "message": "Created by HumblDump | Support Me"
+  },
+  "tarayici_sifresi": {
+    "message": "Browser password"
+  },
+  "sifre_degis": {
+    "message": "Change your password"
+  },
+  "eski_sifre": {
+    "message": "Old password"
+  },
+  "yeni_sifre_gir_uyari": {
+    "message": "Enter your new password"
+  },
+  "yeni_sifre_tekrar_uyari": {
+    "message": "Confirm your new password"
+  },
+  "kaydet_buton": {
+    "message": "SAVE"
+  },
+  "tarayici_kilitle": {
+    "message": "Lock Browser"
+  },
+  "ayarlari_degistir": {
+    "message": "Change Settings"
+  },
+  "evet_btn": {
+    "message": "Yes"
+  },
+  "hayir_btn": {
+    "message": "No"
+  },
+  "tekrar_sorma_btn": {
+    "message": "Don't ask again"
+  },
+  "basari_ile_yuklendi": {
+    "message": "installed successfully"
+  },
+  "tarayici_kilit_ac": {
+    "message": "Do you want to unlock browser?"
+  },
+  "tarayici_kilitle_uyari": {
+    "message": "Do you want to lock your browser right now?"
+  },
+  "tarayici_kilitlendi": {
+    "message": "Browser successfully locked"
+  },
+  "tarayici_kilit_acildi": {
+    "message": "Browser successfully unlocked"
+  },
+  "sifre_degisti": {
+    "message": "Password has been changed successfully!"
+  },
+  "eski_yeni_sifre_ayni": {
+    "message": "New password cannot be the same as old!"
+  },
+  "yeni_sifre_eslesmedi": {
+    "message": "Entered passwords do not match"
+  },
+  "sifre_yanlis": {
+    "message": "Wrong password"
+  },
+  "ana_sifre_olustur": {
+    "message": "Create main password"
+  },
+  "ana_sifre_olusturuldu": {
+    "message": "Registration has been completed!"
+  },
+  "ana_sifre_kaydedilmedi": {
+    "message": "Can't save password"
+  },
+  "sifre_uzunluk_kontrol": {
+    "message": "Enter a password includes at least 1 character!"
+  },
+  "deneme_kaldi_bir": {
+    "message": "Wrong password!<br><b class='atemp_left_alert'> "
+  },
+  "deneme_kaldi_iki": {
+    "message": " </b> Attempts left!"
+  },
+  "uygulama_aciklama": {
+    "message": "Take control of your web browser privacy!"
+  },
+  "uygulama_kisa_baslik": {
+    "message": "BrowserLock"
+  },
+  "tarayici_kilidi": {
+    "message": "Browser Lock"
+  },
+  "gizli_pencere": {
+    "message": "For maximum safety, allow Browser Lock to work in incognito mode."
+  },
+  "bizi_puanla": {
+    "message": "If you like Browser Lock, support me on my patreon ♥"
+  },
+  "eposta_adresin": {
+    "message": "Your Email:"
+  },
+  "epostani_gir": {
+    "message": "Enter your Email address"
+  },
+  "eposta_kaydedildi": {
+    "message": "Email has been saved"
+  },
+  "eposta_hatali": {
+    "message": "Please enter a valid email address"
+  },
+  "eposta_kaydet": {
+    "message": "Save Email"
+  },
+  "eposta_degistir": {
+    "message": "Change Email"
+  },
+  "suanki_eposta": {
+    "message": "Saved Email: "
+  },
+  "ayarlar": {
+    "message": "Settings"
+  },
+  "tarayici_kilit": {
+    "message": "Browser Lock"
+  },
+  "derin_guvenlik": {
+    "message": "Deep Security"
+  },
+  "derin_guvenlik_aciklama": {
+    "message": "It locks the browser login for 3 minutes after 3 wrong login attempts."
+  },
+  "karanlik_mod": {
+    "message": "Dark Mod"
+  },
+  "sifremi_unuttum": {
+    "message": "Password Recovery"
+  },
+  "sifremi_unuttum_aciklama": {
+    "message": "When you forgot your password at the main login, it changes your password with your email."
+  },
+  "gecmisi_temizle": {
+    "message": "Clear History"
+  },
+  "gecmisi_temizle_aciklama": {
+    "message": "It clears browser history after 3 wrong login attempts."
+  },
+  "acik": {
+    "message": ", has been activated!"
+  },
+  "kapali": {
+    "message": ", has been deactivated!"
+  },
+  "sifre_kurtarma_aciklama": {
+    "message": "Enter your <b>Mail</b> address, we will send you <b>Recovery Code</b>"
+  },
+  "gonder": {
+    "message": "Send"
+  },
+  "degistir": {
+    "message": "Change"
+  },
+  "kurtarma_kodunu_gir": {
+    "message": "Check your Email and enter your <b>Recovery Code</b>"
+  },
+  "kurtarma_kodu_gir": {
+    "message": "Enter recovery code..."
+  },
+  "gunde_sadece_birkez": {
+    "message": "You can recover your password only once at a day!"
+  },
+  "sifre_ok_degisti": {
+    "message": "Password has been recovered. New Password: "
+  },
+  "kurtarma_kod_yanlis": {
+    "message": "Wrong recovery code!"
+  },
+  "eposta_yanlis": {
+    "message": "Wrong email address!"
+  },
+  "grecaptcha_hatasi": {
+    "message": "Spam protection could not success."
+  },
+  "link_zaten_ekli": {
+    "message": "Url already in que."
+  },
+  "link_eklendi": {
+    "message": "Url has been added, after login in url will open automatically."
+  },
+  "sifre_unuttum": {
+    "message": "Did you lost your password?"
+  }
+}

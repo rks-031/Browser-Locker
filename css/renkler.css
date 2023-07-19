@@ -1,0 +1,131 @@
+html#light_mode:root {
+    --btnrenk: #FDFFFC;
+    --siyah: #011627;
+    --siyahack: RGBA(1, 22, 39, .3);
+    --yesil: #1db954;
+    --kirmizi: #f71735;
+    --aqua: #41ead4;
+    --beyaz: #FDFFFC;
+    --pembe: #bf83f7;
+    --sari: #FF9F1C;
+    --uyariSari: #FF9F1C;
+    --cizgi: RGBA(1, 22, 39, .5) 1.2px solid;
+
+    --recoverybg: #011627;
+
+    --formbg: linear-gradient(62deg, var(--aqua) 0%, var(--pembe) 100%);
+    --formboxbg: #FDFFFC;
+
+    --chngbtnlinear: linear-gradient(-40deg, #40e495 50%, #011627 50%);
+    --butonText: #FDFFFC;
+    --butonHowerText: #292929;
+    --butonArka: #011627;
+    --butonHoverArka: #0ae7b7;
+    --buttonSlide: #e0fbfc;
+}
+
+
+
+
+
+html#dark_mode:root {
+    --siyah: #FDFFFC;
+    --btnrenk: #FDFFFC;
+    --siyahack: RGBA(253, 255, 252, .3);
+    --yesil: #0CBABA;
+    --kirmizi: #e43f5a;
+    --aqua: #2A5470;
+    --beyaz: #303030;
+    --pembe: #4C4177;
+    --sari: #e43f5a;
+    --uyariSari: #303030;
+    --cizgi: RGBA(253, 255, 252, .3) 1.5px solid;
+
+    --recoverybg: #115173;
+
+    --formbg: linear-gradient(62deg, var(--aqua) 0%, var(--pembe) 100%);
+    --formboxbg: #3d3d3d;
+
+    --chngbtnlinear: linear-gradient(40deg, #3b2c85 50%, #00fff5 50%);
+    --butonText: #FDFFFC;
+    --butonHowerText: #292929;
+    --butonArka: #3b2c85;
+    --butonHoverArka: #00fff5;
+    --buttonSlide: #e0fbfc;
+}
+
+.jconfirm.jconfirm-lock-noti .jconfirm-bg {
+    background: var(--formbg);
+    opacity: .3;
+}
+#login__body .jconfirm.jconfirm-lock-noti .jconfirm-box{
+    width: 70% !important;
+}
+.jconfirm.jconfirm-lock-noti .jconfirm-box {
+    width: 37%;
+}
+.jconfirm.jconfirm-lock-noti .jconfirm-title{
+    margin-left: .2em;
+    text-transform: uppercase;
+}
+.jconfirm.jconfirm-lock-noti .jconfirm-box,
+.jconfirm.jconfirm-lock-noti .jconfirm-box.loading,
+.jconfirm.jconfirm-lock-noti .jconfirm-box.loading:before,
+.jconfirm.jconfirm-lock-noti .jconfirm-box.loading:after {
+    background-color: var(--formboxbg);
+    color: var(--siyah);
+}
+/*
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+        url('../fonts/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}

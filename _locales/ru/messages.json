@@ -1,0 +1,214 @@
+{
+    "yeni_sifre": {
+      "message": "Новый пароль"
+    },
+    "yeni_sifre_tekrar": {
+      "message": "Повторите новый пароль"
+    },
+    "sifreyi_unutma": {
+      "message": "Запомните пароль!"
+    },
+    "uygulama_baslik": {
+      "message": "Browser Lock | Заблокировать браузер"
+    },
+    "sifre_gir_uyari": {
+      "message": "Введите свой пароль!"
+    },
+    "oturum_ac_buton": {
+      "message": "Войти"
+    },
+    "geri_sayim": {
+      "message": "Для повторной попытки подождите <b id='count__ss'></b> секунд!"
+    },
+    "created_by": {
+      "message": "HumblDump |Поддержите меня"
+    },
+    "tarayici_sifresi": {
+      "message": "Пароль браузера"
+    },
+    "sifre_degis": {
+      "message": "Сменить пароль"
+    },
+    "eski_sifre": {
+      "message": "Старый пароль"
+    },
+    "yeni_sifre_gir_uyari": {
+      "message": "Введите новый пароль!"
+    },
+    "yeni_sifre_tekrar_uyari": {
+      "message": " Повторно введите новый пароль!"
+    },
+    "kaydet_buton": {
+      "message": "СОХРАНИТЬ"
+    },
+    "tarayici_kilitle": {
+      "message": "Заблокировать браузер"
+    },
+    "ayarlari_degistir": {
+      "message": "Изменить настройки"
+    },
+    "evet_btn": {
+      "message": "Да"
+    },
+    "hayir_btn": {
+      "message": " Нет"
+    },
+    "tekrar_sorma_btn": {
+      "message": "Не спрашивать повторно"
+    },
+    "basari_ile_yuklendi": {
+      "message": "Успешно загружено"
+    },
+    "tarayici_kilit_ac": {
+      "message": "Хотите отключить блокировку браузера?"
+    },
+    "tarayici_kilitle_uyari": {
+      "message": "Хотите заблокировать браузер сейчас?"
+    },
+    "tarayici_kilitlendi": {
+      "message": "Блокировка браузера успешно включена!"
+    },
+    "tarayici_kilit_acildi": {
+      "message": " Блокировка браузера успешно выключена!"
+    },
+    "sifre_degisti": {
+      "message": " Пароль браузера успешно изменен!"
+    },
+    "eski_yeni_sifre_ayni": {
+      "message": "Новый пароль не должен совпадать со старым!"
+    },
+    "yeni_sifre_eslesmedi": {
+      "message": " Новые пароли не совпадают!"
+    },
+    "sifre_yanlis": {
+      "message": " Неправильный пароль!"
+    },
+    "ana_sifre_olustur": {
+      "message": "Создайте основной пароль!"
+    },
+    "ana_sifre_olusturuldu": {
+      "message": "Основной пароль сохранен!"
+    },
+    "ana_sifre_kaydedilmedi": {
+      "message": "Не удалось сохранить пароль!"
+    },
+    "sifre_uzunluk_kontrol": {
+      "message": "Введите пароль содержащий минимум один символ!"
+    },
+    "deneme_kaldi_bir": {
+      "message": "Неправильный пароль!<br><b class='atemp_left_alert'> "
+    },
+    "deneme_kaldi_iki": {
+      "message": "У вас осталась </b> попытка!"
+    },
+    "uygulama_aciklama": {
+      "message": " Защитите с легкостью свой браузер от неавторизованных пользователей!"
+    },
+    "uygulama_kisa_baslik": {
+      "message": "BrowserLock"
+    },
+    "tarayici_kilidi": {
+      "message": " Блокировка браузера "
+    },
+    "gizli_pencere": {
+      "message": " Дать разрешение Browser Lock в режиме инкогнито для максимальной безопасности!"
+    },
+    "bizi_puanla": {
+      "message": "Если вам нравится Browser Lock, поддержите меня на Patreon.♥"
+    },
+    "eposta_adresin": {
+      "message": "Ваша электронная почта:"
+    },
+    "epostani_gir": {
+      "message": "Введите адрес электронной почты..."
+    },
+    "eposta_kaydedildi": {
+      "message": " Электронная почта сохранена..."
+    },
+    "eposta_hatali": {
+      "message": " Пожалуйста, введите действительный адрес электронной почты"
+    },
+    "eposta_kaydet": {
+      "message": "Сохранить электронную почту"
+    },
+    "eposta_degistir": {
+      "message": " Сменить электронную почту"
+    },
+    "suanki_eposta": {
+      "message": " Текущая электронная почта: "
+    },
+    "ayarlar": {
+      "message": " Настройки"
+    },
+    "tarayici_kilit": {
+      "message": " Блокировка браузера"
+    },
+    "derin_guvenlik": {
+      "message": " Глубокая безопасность"
+    },
+    "derin_guvenlik_aciklama": {
+      "message": " Блокирует браузер на 3 минуты после 3-х неверных паролей на главном входе."
+    },
+    "karanlik_mod": {
+      "message": " Темный режим"
+    },
+    "sifremi_unuttum": {
+      "message": "Забыли пароль "
+    },
+    "sifremi_unuttum_aciklama": {
+      "message": "Откроет изменение пароля по электронной почте если забыли пароль на главном входе."
+    },
+    "gecmisi_temizle": {
+      "message": " Очистить историю"
+    },
+    "gecmisi_temizle_aciklama": {
+      "message": "Очищает историю браузера после 3 неправильных паролей при основном входе в систему."
+    },
+    "acik": {
+      "message": "Включено"
+    },
+    "kapali": {
+      "message": "Выключено"
+    },
+    "sifre_kurtarma_aciklama": {
+      "message": " Введите адрес <b> электронной почты</b>, зарегистрированный в системе. Мы отправим вам электронное письмо с <b> кодом восстановления</b>."
+    },
+    "gonder": {
+      "message": "Отправить"
+    },
+    "degistir": {
+      "message": "Изменить"
+    },
+    "kurtarma_kodunu_gir": {
+      "message": " Проверьте свою электронную почту и введите <b> код восстановления</b>, который мы отправили вам ниже."
+    },
+    "kurtarma_kodu_gir": {
+      "message": "Введите код восстановления..."
+    },
+    "gunde_sadece_birkez": {
+      "message": "Вы можете сбросить пароль только один раз в день."
+    },
+    "sifre_ok_degisti": {
+      "message": "Пароль успешно восстановлен. Новый пароль:"
+    },
+    "kurtarma_kod_yanlis": {
+      "message": "Введен неверный код восстановления!"
+    },
+    "eposta_yanlis": {
+      "message": "Введен неверный адрес электронной почты!"
+    },
+    "grecaptcha_hatasi": {
+      "message": " Не удалось проверить, бот вы или нет. Выключите и снова включите."
+    },
+    "link_zaten_ekli": {
+      "message": " Ссылка уже добавлена."
+    },
+    "link_eklendi": {
+      "message": "Ссылка добавлена, она откроется автоматически после входа в систему."
+    },
+    "sifre_unuttum": {
+      "message": "Забыли пароль?"
+    }
+  }
+  
+  
