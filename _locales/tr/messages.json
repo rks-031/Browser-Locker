@@ -20,9 +20,6 @@
   "geri_sayim": {
     "message": "Tekrar denemek için, <b id='count__ss'></b> saniye bekle!"
   },
-  "created_by": {
-    "message": "HumblDump | Beni Destekle"
-  },
   "tarayici_sifresi": {
     "message": "Tarayıcı şifresi"
   },

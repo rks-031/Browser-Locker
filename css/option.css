@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    font-size: 100%;
+    font-size: 90%;
     color: var(--siyah);
     max-height: 100%;
     height: 100%;
@@ -185,7 +185,7 @@ input[type=password]:focus {
 }
 
 .button_section {
-    margin: 0 0 0 auto;
+    margin: 0;
     width: 35%;
 }
 
@@ -258,13 +258,14 @@ input[type=password]:focus {
     background-repeat: no-repeat;
     background-position: 0%;
     transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+
 }
 
 .change__pass__btn:hover,
 .main__mail__btn:hover {
     background-position: 100%;
-    color: var(--butonHowerText);
-    letter-spacing: 4px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    letter-spacing: 2px;
 }
 
 .change__pass__btn:active,
@@ -290,7 +291,9 @@ input[type=password]:focus {
 }
 
 .input_area {
-    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .switch {
@@ -298,6 +301,7 @@ input[type=password]:focus {
     display: inline-block;
     width: 60px;
     height: 30px;
+    margin-right: 10px;
 }
 
 .switch input {
@@ -316,6 +320,8 @@ input[type=password]:focus {
     background-color: var(--siyahack);
     transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
     border-radius: 50px;
+    margin-left: 1.5px;
+    padding: 3px;
 }
 
 .slider:before {
@@ -331,7 +337,9 @@ input[type=password]:focus {
 }
 
 input:checked+.slider {
-    background-color: var(--yesil);
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
 }
 
 input:focus+.slider {
@@ -473,73 +481,77 @@ input:checked+.slider:before {
     transform: translateX(-10px)
 }
 
+/* Existing CSS... */
 
+/* Add media query for small screen sizes (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .opt__screen {
+        width: 90%;
+    }
 
+    .select__divs,
+    .opt__divs {
+        width: 100%;
+        margin: 20px 0;
+        padding: 0;
+        border-radius: 30px;
+    }
 
-
-
-
-
-
-
-
-/*
-
-
-@media screen and (max-width: 2560px) {
     .wrapper {
-        transform: scale(1.8);
+        transform: scale(0.8);
+        /* Adjust scale as needed */
     }
 
     body {
-        font-size: 110%;
+        font-size: 90%;
+        /* Adjust font size as needed */
+    }
+
+    .h1_title h1 {
+        font-size: 1.5em;
+    }
+
+    .main__mail__btn,
+    .change__pass__btn {
+        font-size: 1em;
+        padding: 15px 0;
     }
 }
 
-@media screen and (max-width: 1920px) {
-    .wrapper {
-        transform: scale(1);
-    }
-
-    body {
-        font-size: 100%;
-    }
-
+/* Add media query for even smaller screen sizes (max-width: 600px) */
+@media screen and (max-width: 600px) {
     .opt__screen {
-        width: 37%;
+        width: 95%;
+    }
+
+    .select__divs,
+    .opt__divs {
+        margin: 15px 0;
+    }
+
+    .h1_title h1 {
+        font-size: 1.3em;
+    }
+
+    .main__mail__btn,
+    .change__pass__btn {
+        font-size: 0.9em;
+        padding: 12.5px 0;
     }
 }
 
-@media screen and (max-width: 1440px) {
-    .wrapper {
-        transform: scale(1);
-    }
-
+@media screen and (max-width: 500px) and (max-height: 738px) {
     .opt__screen {
-        width: 60%;
+        width: 98%;
+    }
+
+    .h1_title h1 {
+        font-size: 1em;
+    }
+
+    .main__mail__btn,
+    .change__pass__btn {
+        font-size: 0.7em;
+        padding: 8px 0;
     }
 }
-
-@media screen and (max-width: 1024px) {
-    .wrapper {
-        transform: scale(1);
-    }
-
-    .opt__screen {
-        width: 80%;
-    }
-
-    body {
-        font-size: 100%;
-    }
-}
-
-.first_form__section {
-    padding: 15px 0 0 0;
-    border-top: var(--cizgi);
-}
-
-.first_form__section .input_section span {
-    font-size: 1em;
-    font-weight: 500;
-}*/
