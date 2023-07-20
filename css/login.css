@@ -491,7 +491,6 @@ input[type="password"]:disabled {
     padding: 13px 0 13px 0;
     font-size: 0.875em;
     font-weight: 500;
-
     margin: 0 0 0 auto;
 }
 
@@ -567,5 +566,12 @@ footer {
     50% {
 
         transform: translateY(-3px) scale(.3);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .recovery__btn .tarayici__btn {
+        width: 30%;
+        margin: 0;
     }
 }
