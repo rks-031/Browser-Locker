@@ -4,7 +4,13 @@
   "version": "1.0.7",
   "description": "This extension allows you to lock your browser after a specified period of inactivity.",
   "background": {
-    "scripts": ["js/util.js", "js/notification.js", "js/bg.js", "js/start.js"]
+    "scripts": [
+      "js/util.js",
+      "js/notification.js",
+      "js/bg.js",
+      "js/start.js",
+      "js/inactivity.js"
+    ]
   },
   "content_scripts": [
     {
@@ -12,8 +18,7 @@
         "https://example.com/login.html",
         "https://example.com/loginform.html",
         "https://example.com/form.html"
-      ],
-      "js": ["js/inactivity.js"]
+      ]
     }
   ],
   "permissions": [
@@ -23,7 +28,6 @@
     "storage",
     "unlimitedStorage",
     "history",
-    "*://worker.indiryo.com/",
     "*://google.com/*"
   ],
   "options_page": "html/options.html",
