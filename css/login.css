@@ -354,7 +354,8 @@ input[type="password"]:disabled {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: var(--recoverybg);
+    /* background-color: var(--recoverybg); */
+    background: linear-gradient(to right, #000000, #434343);
     z-index: 10;
     transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -386,7 +387,7 @@ input[type="password"]:disabled {
     top: 0;
     text-align: right;
     transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
-    color: #ffffff;
+    color: #fc4b1ac5;
 }
 
 .bars__location i.kapali::before {
@@ -408,7 +409,7 @@ input[type="password"]:disabled {
 .form__container {
     background-color: var(--beyaz);
     position: relative;
-    width: 100%;
+    width: 70%;
     height: calc(100vh - 120px);
     border-radius: 5px 0 0 5px;
     display: flex;
@@ -543,18 +544,24 @@ input[type="password"]:disabled {
 }
 
 footer {
-    background-color: #011627;
+    background: linear-gradient(to top, #000000, #434343);
     color: white;
     font-weight: 400;
     text-align: center;
-    padding-top: 2px;
     font-size: 15px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 45px;
+
+    /* Flexbox styles to align the content to the bottom */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 @keyframes scale {
 
