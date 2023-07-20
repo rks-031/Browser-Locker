@@ -386,7 +386,7 @@ input[type="password"]:disabled {
     top: 0;
     text-align: right;
     transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
-    color: #fc4a1a;
+    color: #ffffff;
 }
 
 .bars__location i.kapali::before {
@@ -544,8 +544,8 @@ input[type="password"]:disabled {
 
 footer {
     background-color: #011627;
-    color: #e45c07;
-    font-weight: 500;
+    color: white;
+    font-weight: 400;
     text-align: center;
     padding-top: 2px;
     font-size: 15px;
