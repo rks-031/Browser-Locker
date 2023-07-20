@@ -508,7 +508,7 @@ input[type="password"]:disabled {
 }
 
 .recaptcha__text {
-    width: 70%;
+    width: 80%;
 }
 
 .recaptcha__text span {
