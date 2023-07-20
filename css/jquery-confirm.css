@@ -391,6 +391,7 @@ body[class*=jconfirm-no-scroll-] {
     -ms-user-select: none;
     user-select: none;
     font-size: inherit;
+    font-weight: 500;
     font-family: inherit;
     display: inline-block;
     vertical-align: middle;
@@ -443,7 +444,7 @@ body[class*=jconfirm-no-scroll-] {
 }
 
 .jconfirm .jconfirm-box .jconfirm-buttons {
-    padding-bottom: 11px;
+    padding-bottom: 26px;
 }
 
 .jconfirm .jconfirm-box .jconfirm-buttons>button {
@@ -485,6 +486,7 @@ body[class*=jconfirm-no-scroll-] {
     text-shadow: none;
     -webkit-transition: background .2s;
     transition: background .2s;
+    margin-left: 14px;
 }
 
 .jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue:hover {

@@ -58,16 +58,20 @@ html#dark_mode:root {
     background: var(--formbg);
     opacity: .3;
 }
-#login__body .jconfirm.jconfirm-lock-noti .jconfirm-box{
+
+#login__body .jconfirm.jconfirm-lock-noti .jconfirm-box {
     width: 70% !important;
 }
+
 .jconfirm.jconfirm-lock-noti .jconfirm-box {
     width: 37%;
 }
-.jconfirm.jconfirm-lock-noti .jconfirm-title{
-    margin-left: .2em;
+
+.jconfirm.jconfirm-lock-noti .jconfirm-title {
+    margin-left: 16px;
     text-transform: uppercase;
 }
+
 .jconfirm.jconfirm-lock-noti .jconfirm-box,
 .jconfirm.jconfirm-lock-noti .jconfirm-box.loading,
 .jconfirm.jconfirm-lock-noti .jconfirm-box.loading:before,
@@ -75,6 +79,7 @@ html#dark_mode:root {
     background-color: var(--formboxbg);
     color: var(--siyah);
 }
+
 /*
 @font-face {
     font-family: 'Roboto';
