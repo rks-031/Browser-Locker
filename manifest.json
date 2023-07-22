@@ -33,7 +33,6 @@
     "storage",
     "unlimitedStorage",
     "history",
-    "*://worker.indiryo.com/",
     "*://google.com/*"
   ],
   "short_name": "BBL",
