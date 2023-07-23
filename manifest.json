@@ -1,17 +1,19 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "author": "BasketHunt",
+
+  "author": "BaketHunt",
   "background": {
     "scripts": ["js/util.js", "js/notification.js", "js/bg.js", "js/start.js"]
   },
   "content_security_policy": "script-src 'self' https://*.google.com https://*.gstatic.com https://*.google-analytics.com; object-src 'self'",
   "default_locale": "en",
-  "description": "This extension allows you to lock your browser after a specified period of inactivity.",
+  "description": "his extension allows you to lock your browser after a specified period of inactivity.",
   "icons": {
-    "120": "logos/lock-94.png",
-    "16": "logos/lock-94.png",
-    "32": "logos/lock-94.png",
-    "96": "logos/lock-94.png"
+    "128": "logos/logo-94.png",
+    "16": "logos/logo-94.png",
+    "24": "logos/logo-94.png",
+    "48": "logos/logo-94.png",
+    "64": "logos/logo-94.png"
   },
   "manifest_version": 2,
   "minimum_chrome_version": "49",
@@ -23,7 +25,7 @@
         "default": "Ctrl+Shift+Y",
         "mac": "Command+Shift+Y"
       },
-      "description": "Lock your Browser"
+      "description": "Press to lock your browser"
     }
   },
   "permissions": [
@@ -35,6 +37,6 @@
     "history",
     "*://google.com/*"
   ],
-  "short_name": "BBL",
+  "short_name": "Browser Locker",
   "version": "1.0.7"
 }

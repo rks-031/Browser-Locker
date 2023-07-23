@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lblm="lang" lang="" id="light_mode">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BasketHunt Browser Locker</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/renkler.css" />
-    <link rel="stylesheet" href="../css/option.css" />
-    <link rel="stylesheet" href="../css/fontawsome.min.css" />
-    <link rel="stylesheet" href="../css/jquery-confirm.css" />
-  </head>
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Lock | Ayarlar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/renkler.css">
+    <link rel="stylesheet" href="../css/option.css">
+    <link rel="stylesheet" href="../css/fontawsome.min.css">
+    <link rel="stylesheet" href="../css/jquery-confirm.css">
+</head>
+
+<body>
     <div class="options">
-      <div class="wrapper disabled">
-        <div class="opt__screen">
-          <!--
+        <div class="wrapper disabled">
+            <div class="opt__screen">
+                <!--
                 <div class="logo-section">
                     <div class="logo__title">
                         <div class="logo__sphere">
@@ -29,128 +28,93 @@
                         </div>
                     </div>
                 </div> -->
-          <div class="secenek_divleri">
-            <div class="select__divs">
-              <div class="h1_title">
-                <h1 lblm="html" text="ayarlar"></h1>
-              </div>
-              <div class="switch_section">
-                <!-- Kilit Açık -->
-                <div class="switch__area">
-                  <div class="switch__ic">
-                    <span lblm="html" text="tarayici_kilit"></span>
-                    <div class="input_area">
-                      <label class="switch">
-                        <input
-                          local="KilitAcik"
-                          id="browser__lock__switch"
-                          type="checkbox"
-                        />
-                        <div class="slider"></div>
-                      </label>
-                    </div>
-                  </div>
-                </div>
+                <div class="secenek_divleri">
+                    <div class="select__divs">
+                        <div class="h1_title">
+                            <h1 lblm="html" text="ayarlar"></h1>
+                        </div>
+                        <div class="switch_section">
+                            <!-- Kilit Açık -->
+                            <div class="switch__area">
+                                <div class="switch__ic">
+                                    <span lblm="html" text="tarayici_kilit"></span>
+                                    <div class="input_area">
+                                        <label class="switch">
+                                            <input local="KilitAcik" id="browser__lock__switch" type="checkbox">
+                                            <div class="slider"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- Hak Deneme -->
-                <div class="switch__area">
-                  <div class="switch__ic">
-                    <span lblm="html" text="derin_guvenlik"></span>
-                    <div class="input_area">
-                      <label class="switch">
-                        <input
-                          local="WrongAttempt"
-                          id="password__attempt__switch"
-                          type="checkbox"
-                        />
-                        <div class="slider"></div>
-                      </label>
-                    </div>
-                  </div>
-                  <span
-                    class="switch__aciklama"
-                    lblm="html"
-                    text="derin_guvenlik_aciklama"
-                  ></span>
-                </div>
+                            <!-- Hak Deneme -->
+                            <div class="switch__area">
+                                <div class="switch__ic">
+                                    <span lblm="html" text="derin_guvenlik"></span>
+                                    <div class="input_area">
+                                        <label class="switch">
+                                            <input local="WrongAttempt" id="password__attempt__switch" type="checkbox">
+                                            <div class="slider"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <span class="switch__aciklama" lblm="html" text="derin_guvenlik_aciklama"></span>
+                            </div>
 
-                <!-- Karanlık Mod -->
-                <div class="switch__area">
-                  <div class="switch__ic">
-                    <span lblm="html" text="karanlik_mod"></span>
-                    <div class="input_area">
-                      <label class="switch">
-                        <input
-                          local="DarkMode"
-                          id="dark__mode__switch"
-                          type="checkbox"
-                        />
-                        <div class="slider"></div>
-                      </label>
-                    </div>
-                  </div>
-                </div>
+                            <!-- Karanlık Mod -->
+                            <div class="switch__area">
+                                <div class="switch__ic">
+                                    <span lblm="html" text="karanlik_mod"></span>
+                                    <div class="input_area">
+                                        <label class="switch">
+                                            <input local="DarkMode" id="dark__mode__switch" type="checkbox">
+                                            <div class="slider"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
 
-                <!-- Email sıfırlama -->
-                <div class="switch__area">
-                  <div class="switch__ic">
-                    <span lblm="html" text="sifremi_unuttum"></span>
-                    <div class="input_area">
-                      <label class="switch">
-                        <input
-                          local="PassRecovery"
-                          id="password__recovery__switch"
-                          type="checkbox"
-                        />
-                        <div class="slider"></div>
-                      </label>
-                    </div>
-                  </div>
-                  <span
-                    class="switch__aciklama"
-                    lblm="html"
-                    text="sifremi_unuttum_aciklama"
-                  ></span>
-                </div>
+                            <!-- Email sıfırlama -->
+                            <div class="switch__area">
+                                <div class="switch__ic">
+                                    <span lblm="html" text="sifremi_unuttum"></span>
+                                    <div class="input_area">
+                                        <label class="switch">
+                                            <input local="PassRecovery" id="password__recovery__switch" type="checkbox">
+                                            <div class="slider"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <span class="switch__aciklama" lblm="html" text="sifremi_unuttum_aciklama"></span>
+                            </div>
 
-                <!-- Clear History -->
-                <div class="switch__area">
-                  <div class="switch__ic">
-                    <span lblm="html" text="gecmisi_temizle"></span>
-                    <div class="input_area">
-                      <label class="switch">
-                        <input
-                          local="ClearHistory"
-                          id="clear__history__switch"
-                          type="checkbox"
-                        />
-                        <div class="slider"></div>
-                      </label>
-                    </div>
-                  </div>
-                  <span
-                    class="switch__aciklama"
-                    lblm="html"
-                    text="gecmisi_temizle_aciklama"
-                  ></span>
-                </div>
+                            <!-- Clear History -->
+                            <div class="switch__area">
+                                <div class="switch__ic">
+                                    <span lblm="html" text="gecmisi_temizle"></span>
+                                    <div class="input_area">
+                                        <label class="switch">
+                                            <input local="ClearHistory" id="clear__history__switch" type="checkbox">
+                                            <div class="slider"></div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <span class="switch__aciklama" lblm="html" text="gecmisi_temizle_aciklama"></span>
+                            </div>
 
-                <!-- Eposta Oluştur -->
-                <div class="mail_button_section">
-                  <button
-                    id="btn__field"
-                    class="main__mail__btn btn-1e"
-                    name="submit"
-                  ></button>
-                  <span class="switch__aciklama email__aciklama">
-                    <p lblm="html" text="suanki_eposta"></p>
-                    <b class="email__show_"></b>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="opt__divs">
-              <!-- Logo Section
+
+                            <!-- Eposta Oluştur -->
+                            <div class="mail_button_section">
+                                <button id="btn__field" class="main__mail__btn btn-1e" name="submit">
+                                </button>
+                                <span class="switch__aciklama email__aciklama">
+                                    <p lblm="html" text="suanki_eposta"></p><b class="email__show_"></b>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="opt__divs">
+                        <!-- Logo Section
                         <div class="logo-section">
                             <div class="logo__title">
                                 <div class="logo__sphere">
@@ -161,87 +125,67 @@
                                 </div>
                             </div>
                         </div> -->
-              <!-- İnput Section -->
+                        <!-- İnput Section -->
 
-              <div class="input-section">
-                <div class="input__title">
-                  <div class="h1_title">
-                    <h1 lblm="html" text="sifre_degis"></h1>
-                  </div>
-                  <div class="form_section">
-                    <form>
-                      <div class="input_section">
-                        <span lblm="html" text="eski_sifre"></span>
-                        <div
-                          class="input_area validate-area"
-                          lblm="uyari"
-                          text="sifre_gir_uyari"
-                          uyari=""
-                        >
-                          <input
-                            id="pass__field"
-                            class="tarayici__pwd"
-                            type="Password"
-                            name="old-browser-pass"
-                          />
+                        <div class="input-section">
+                            <div class="input__title">
+                                <div class="h1_title">
+                                    <h1 lblm="html" text="sifre_degis"></h1>
+                                </div>
+                                <div class="form_section">
+                                    <form>
+                                        <div class="input_section">
+                                            <span lblm="html" text="eski_sifre"></span>
+                                            <div class="input_area validate-area" lblm="uyari" text="sifre_gir_uyari"
+                                                uyari="">
+                                                <input id="pass__field" class="tarayici__pwd" type="Password"
+                                                    name="old-browser-pass">
+                                            </div>
+                                        </div>
+                                        <div class="input_section">
+                                            <span lblm="html" text="yeni_sifre"></span>
+                                            <div class="input_area validate-area" lblm="uyari"
+                                                text="yeni_sifre_gir_uyari" uyari="Enter your new password!">
+                                                <input lblm="uyari" text="yeni_sifre_gir_uyari" id="pass__field"
+                                                    class="tarayici__pwd" type="Password" name="new-browser-pass">
+                                            </div>
+                                        </div>
+                                        <div class="input_section">
+                                            <span lblm="html" text="yeni_sifre_tekrar"></span>
+                                            <div class="input_area validate-area" lblm="uyari"
+                                                text="yeni_sifre_tekrar_uyari" uyari="">
+                                                <input id="pass__field" class="tarayici__pwd" type="Password"
+                                                    name="new-again-browser-pass">
+                                            </div>
+                                        </div>
+                                        <div class="input_section">
+                                            <div class="switch__button">
+                                                <div class="button_section">
+                                                    <button lblm="html" text="kaydet_buton" id="btn__field"
+                                                        class="change__pass__btn btn-1e" name="submit">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="input_section">
-                        <span lblm="html" text="yeni_sifre"></span>
-                        <div
-                          class="input_area validate-area"
-                          lblm="uyari"
-                          text="yeni_sifre_gir_uyari"
-                          uyari="Enter your new password!"
-                        >
-                          <input
-                            lblm="uyari"
-                            text="yeni_sifre_gir_uyari"
-                            id="pass__field"
-                            class="tarayici__pwd"
-                            type="Password"
-                            name="new-browser-pass"
-                          />
+
+                        <!-- Created Section -->
+                        <div class="copyright">
+                            <div class="created__by">
+                                <a href="https://www.patreon.com/humbldump" target="_blank">
+                                    <p>HumblDump | Support Me <i class="fa fa-heart"></i></p>
+                                </a>
+                            </div>
                         </div>
-                      </div>
-                      <div class="input_section">
-                        <span lblm="html" text="yeni_sifre_tekrar"></span>
-                        <div
-                          class="input_area validate-area"
-                          lblm="uyari"
-                          text="yeni_sifre_tekrar_uyari"
-                          uyari=""
-                        >
-                          <input
-                            id="pass__field"
-                            class="tarayici__pwd"
-                            type="Password"
-                            name="new-again-browser-pass"
-                          />
-                        </div>
-                      </div>
-                      <div class="input_section">
-                        <div class="switch__button">
-                          <div class="button_section">
-                            <button
-                              lblm="html"
-                              text="kaydet_buton"
-                              id="btn__field"
-                              class="change__pass__btn btn-1e"
-                              name="submit"
-                            ></button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
+
 
     <script src="../js/lib/jquery.js"></script>
     <script src="../js/lib/jquery-confirm.js"></script>
@@ -250,5 +194,6 @@
     <script src="../js/util.js"></script>
     <script src="../js/lib/notify.min.js"></script>
     <script src="../js/htmljs/option.js"></script>
-  </body>
+</body>
+
 </html>

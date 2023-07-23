@@ -221,7 +221,7 @@ input[type="password"]:disabled {
 
 .password_lost:hover {
     transform: scale(1.05);
-    color: var(--sari);
+    color: #f7b733;
 }
 
 .linkekleme {
@@ -246,6 +246,7 @@ input[type="password"]:disabled {
     font-weight: 300;
     font-size: 14px;
     margin-right: 5px;
+    color: white;
 }
 
 .created__by {

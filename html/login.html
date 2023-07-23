@@ -2,9 +2,8 @@
 <html lblm="lang" lang="" id="light_mode">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' blob: filesystem: https://ssl.google-analytics.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title lblm="html" text="uygulama_baslik">BasketHunt Browser Locker</title>
+    <title lblm="html" text="uygulama_baslik"></title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
@@ -149,69 +148,71 @@
       </div>
     </section>
     <!-- Login Screen -->
-      <section class="root">
-        <div class="article">
-          <div class="logo-section">
-            <div class="logo__title">
-              <div class="logo__sphere">
-                <img src="../logos/lock-94.png" alt="Browser Lock" />
-              </div>
-              <div class="lock__title">
-                <h1 lblm="html" text="uygulama_baslik"></h1>
-              </div>
+    <section class="root">
+      <div class="article">
+        <div class="logo-section">
+          <div class="logo__title">
+            <div class="logo__sphere">
+              <img src="../logos/128-logo.png" alt="Browser Lock" />
+            </div>
+            <div class="lock__title">
+              <h1 lblm="html" text="uygulama_baslik"></h1>
             </div>
           </div>
-          <div class="input-section">
-            <div class="input__button">
-              <form id="loginForm">
-                <div
-                  class="input__area validate-area"
-                  lblm="uyari"
+        </div>
+        <div class="input-section">
+          <div class="input__button">
+            <form id="loginForm">
+              <div
+                class="input__area validate-area"
+                lblm="uyari"
+                text="sifre_gir_uyari"
+                uyari=""
+              >
+                <div class="show_password"></div>
+                <input
+                  id="pass__field"
+                  class="tarayici__pwd"
+                  lblm="placeholder"
                   text="sifre_gir_uyari"
-                  uyari=""
+                  type="Password"
+                  name="browser-pass"
+                  placeholder=""
+                />
+              </div>
+              <div class="button__area">
+                <button
+                  id="login_btn_field"
+                  class="tarayici__btn slider__effect"
+                  name="submit"
                 >
-                  <div class="show_password"></div>
-                  <input
-                    id="pass__field"
-                    class="tarayici__pwd"
-                    lblm="placeholder"
-                    text="sifre_gir_uyari"
-                    type="Password"
-                    name="browser-pass"
-                    placeholder=""
-                  />
-                </div>
-                <div class="button__area">
-                  <button
-                    id="login_btn_field"
-                    class="tarayici__btn slider__effect"
-                    name="submit"
-                  >
-                    <span
-                      class="btn__text"
-                      lblm="html"
-                      text="oturum_ac_buton"
-                    ></span>
-                    <div class="login_in_icon"></div>
-                  </button>
-                </div>
-              </form>
-            </div>
+                  <span
+                    class="btn__text"
+                    lblm="html"
+                    text="oturum_ac_buton"
+                  ></span>
+                  <div class="login_in_icon"></div>
+                </button>
+              </div>
+            </form>
           </div>
-          <div id="count__base" class="count__down hidden">
-            <div class="counter">
-              <p lblm="html" text="geri_sayim"></p>
-            </div>
+        </div>
+        <div id="count__base" class="count__down hidden">
+          <div class="counter">
+            <p lblm="html" text="geri_sayim"></p>
           </div>
-          <div class="copyright">
-            <div class="password_lost hidden">
-              <p lblm="html" text="sifre_unuttum">Şifreni mi unuttun?</p>
-            </div>
-
+        </div>
+        <div class="copyright">
+          <div class="password_lost hidden">
+            <p lblm="html" text="sifre_unuttum">Şifreni mi unuttun?</p>
           </div>
-          <footer>Copyright &copy; BasketHunt Pvt. Ltd. | All Rights Reserved</footer>
-      </section>
-    </div>
+          <!-- <div class="created__by linkekleme" link="https://www.patreon.com/humbldump">
+                    <p lblm="html" text="created_by"></p><i class="fa fa-heart"></i>
+                </div> -->
+        </div>
+      </div>
+    </section>
+    <footer>Copyright &copy; BasketHunt Pvt. Ltd. | All Rights Reserved</footer>
     <script src="../js/lib/jquery.js"></script>
     <script src="../js/lib/jquery-confirm.js"></script>
     <script src="../js/lib/md5.js"></script>

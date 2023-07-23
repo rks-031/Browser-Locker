@@ -3,7 +3,7 @@ class notification {
     var id = Math.floor(Math.random() * 100 + 1);
     const opt = {
       type: "basic",
-      iconUrl: "../logos/lock-94.png",
+      iconUrl: "../logos/logo-94.png",
       title: util.ceviri("uygulama_baslik"),
       message:
         version +
@@ -21,7 +21,7 @@ class notification {
       var id = Math.floor(Math.random() * 100 + 1);
       const opt = {
         type: "basic",
-        iconUrl: "../logos/lock-94.png",
+        iconUrl: "../logos/logo-94.png",
         title: util.ceviri("uygulama_baslik"),
         message: util.ceviri("tarayici_kilitle_uyari"),
         contextMessage: util.ceviri("created_by"),

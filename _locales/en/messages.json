@@ -20,6 +20,9 @@
   "geri_sayim": {
     "message": "To try again, wait <b id='count__ss'></b> seconds!"
   },
+  "created_by": {
+    "message": "Created by HumblDump | Support Me"
+  },
   "tarayici_sifresi": {
     "message": "Browser password"
   },
@@ -36,7 +39,7 @@
     "message": "Confirm your new password"
   },
   "kaydet_buton": {
-    "message": "Save"
+    "message": "SAVE"
   },
   "tarayici_kilitle": {
     "message": "Lock Browser"
@@ -109,6 +112,9 @@
   },
   "gizli_pencere": {
     "message": "For maximum safety, allow Browser Lock to work in incognito mode."
+  },
+  "bizi_puanla": {
+    "message": "If you like Browser Lock, support me on my patreon ♥"
   },
   "eposta_adresin": {
     "message": "Your Email:"
@@ -201,6 +207,6 @@
     "message": "Url has been added, after login in url will open automatically."
   },
   "sifre_unuttum": {
-    "message": "Did you lose your password?"
+    "message": "Forgot your password?"
   }
 }
