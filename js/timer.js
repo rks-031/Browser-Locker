@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         function setTime() {
-          const time = prompt("Enter the time in minutes (1, 5, 10, ..., 90):");
+          const time = prompt("Enter the time in minutes:");
 
           if (time) {
             chrome.storage.sync.set({ time: parseInt(time) }, function () {
