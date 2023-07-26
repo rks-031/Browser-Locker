@@ -5,6 +5,9 @@
   "yeni_sifre_tekrar": {
     "message": "New password again"
   },
+  "set_Timer": {
+    "message": "Set Timer"
+  },
   "sifreyi_unutma": {
     "message": "Just make sure that you don't forget your password!"
   },
