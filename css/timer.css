@@ -133,7 +133,6 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    /* Adjust the margin-top as needed */
 }
 
 .logo-image:hover img {
@@ -173,36 +172,88 @@ h1 {
     }
 }
 
-/* Responsive styles for 768px and smaller screens */
+/* Common styles for all screen sizes */
 
-@media (max-width: 768px) {
-    .wrapper {
-        width: 90%;
+/* ... your existing CSS code ... */
+
+/* Media Queries */
+
+/* Responsive styles for 1024px and smaller screens */
+@media (max-width: 1024px) {
+    .timer_screen {
+        width: 60%;
     }
 
     #setTimeBtn {
-        width: 90%;
-        margin-left: 2.5rem;
+        width: 40%;
+        margin-left: 80px;
     }
 
     #statusMessage {
-        margin: 2rem 3rem;
+        margin: 2rem;
+    }
+}
+
+/* Responsive styles for 768px and smaller screens */
+@media (max-width: 768px) {
+    .timer_screen {
+        width: 70%;
+    }
+
+    #setTimeBtn {
+        width: 50%;
+        margin-left: 75px;
+    }
+
+    #statusMessage {
+        margin: 2rem;
     }
 }
 
 /* Responsive styles for 600px and smaller screens */
-
 @media (max-width: 600px) {
-    .wrapper {
+    .timer_screen {
+        width: 80%;
+    }
+
+    #setTimeBtn {
+        width: 60%;
+        margin-left: 70px;
+    }
+
+    #statusMessage {
+        margin: 2rem;
+    }
+}
+
+/* Responsive styles for 550px and smaller screens */
+@media (max-width: 550px) {
+    .timer_screen {
+        width: 90%;
+    }
+
+    #setTimeBtn {
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    #statusMessage {
+        margin: 2rem;
+    }
+}
+
+/* Responsive styles for 360px and smaller screens */
+@media (max-width: 360px) {
+    .timer_screen {
         width: 95%;
     }
 
     #setTimeBtn {
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
+        margin-left: 50px;
     }
 
     #statusMessage {
-        margin: 2rem 1rem;
+        margin: 1.5rem;
     }
 }
