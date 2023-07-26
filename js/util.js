@@ -63,6 +63,32 @@ class util {
     const { KilitAcik, KilitEkran, Kilitli } = localStorage;
     if (KilitAcik === "true") {
       if (KilitEkran != "true") {
+        //Changes
+      chrome.tabs.create({ url: 'js/timer.html?wndid=hmbldmplgscrn' }, (tab) => {
+        const width = 640;
+        const height = 540;
+        const left = parseInt((screen.width / 2) - (width / 2));
+        const top = parseInt((screen.height / 2) - (height / 2));
+        localStorage.ilkekran = "false";
+        const GirisBilgileri = {
+            left,
+            top,
+            width,
+            height,
+            //state: 'fullscreen',
+            focused: true,
+            incognito: false,
+            type: 'panel',
+            tabId: tab.id
+        };
+    }
+    );
+
+       util.timer();
+
+
+
+    // //Changes
         util.localduzen().then(() => {
           BrowserLock.Lock();
         });
