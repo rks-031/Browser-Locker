@@ -7,13 +7,8 @@
 5. Click on **_Load Unpacked_** button.
 6. Select this repository folder and the extension will be added.
 
-# Current progress of the project
+# Workflow of the extension
 
-***Using in light mode***
+https://github.com/rks-031/Browser-Locker/assets/103258259/e969a2b5-ce28-4371-8dfe-41c2da689945
 
-https://github.com/rks-031/Browser-Locker/assets/103258259/c0b05525-1b62-40e5-a9e4-c20d5f16d5eb
-
-***Using in dark mode***
-
-https://github.com/rks-031/Browser-Locker/assets/103258259/f178d56d-e5ed-4bb2-aa76-bf32599a09da
 
