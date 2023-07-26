@@ -9,5 +9,11 @@
 
 # Current progress of the project
 
-https://github.com/rks-031/Browser-Locker/assets/103258259/0882f8ac-af10-4979-ba1f-9442a4cf17f2
+***Using in light mode***
+
+https://github.com/rks-031/Browser-Locker/assets/103258259/c0b05525-1b62-40e5-a9e4-c20d5f16d5eb
+
+***Using in dark mode***
+
+https://github.com/rks-031/Browser-Locker/assets/103258259/f178d56d-e5ed-4bb2-aa76-bf32599a09da
 
