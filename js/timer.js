@@ -29,18 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
       setTime();
     });
   
-    // passwordInput.addEventListener("input", function () {
-    //   const password = passwordInput.value;
-    //   chrome.storage.sync.set({ password: password });
-    // });
-  
-    // passwordInput.addEventListener("keydown", function (event) {
-    //   if (event.key === "Enter") {
-    //     event.preventDefault();
-    //     setTime();
-    //   }
-    // });
-  
     function setTime() {
       const time = prompt("Enter the time in minutes (1, 5, 10, ..., 90):");
       
