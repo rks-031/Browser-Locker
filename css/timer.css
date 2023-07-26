@@ -1,3 +1,5 @@
+/* Common styles for all screen sizes */
+
 * {
     font-family: 'Poppins', sans-serif;
 }
@@ -21,13 +23,15 @@ body {
     color: var(--siyah);
     max-height: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 h1 {
     text-align: center;
     width: 100%;
-    margin: 25px 0 25px 0;
+    margin: 76px 0 25px 0;
     border-bottom: var(--cizgi);
 }
 
@@ -36,39 +40,34 @@ h1 {
     margin: 0;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0; 
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .wrapper {
-    /* display: flex; */
     align-items: center;
     width: 80%;
     transform: scale(1);
-    /* margin-top: 2rem;
-    margin-bottom: 2rem; */
     margin: auto;
 }
 
 .timer_screen {
     box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 0 13px 19px 2px rgba(0, 0, 0, 0.14), 0 5px 24px 4px rgba(0, 0, 0, 0.12);
-    background-color: #FDFFFC;
+    background-color: rgba(253, 255, 252, 0.2);
     border-radius: 30px;
-    margin: auto;
-    /* padding: 5rem; */
     width: 40%;
     height: 60%;
-    margin-top: 5%;
-    /* display: flex; */
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#setTimeBtn{
+#setTimeBtn {
     padding: 0;
-    margin-top: 4rem;
-    margin-left: 3rem;
+    margin-top: 40px;
+    margin-left: 110px;
     border: 0;
     border-radius: 50px;
     -webkit-appearance: none;
@@ -76,23 +75,34 @@ h1 {
     appearance: none;
     background-color: #000;
     outline: 0;
-    width: 70%;
-    padding: 17.5px 0 17.5px 0;
+    width: 50%;
+    padding: 17.5px 0;
     background: #000;
     font-size: 1.5em;
     font-weight: 300;
     line-height: 1;
     color: #FDFFFC;
     cursor: pointer;
-}
-
-#setTimeBtn {
     background-image: var(--chngbtnlinear);
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: 0%;
     transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: heartbeat 2s infinite;
+}
 
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 #setTimeBtn:hover {
@@ -107,10 +117,65 @@ h1 {
 }
 
 #statusMessage {
-    font-size: 1.2rem;
-    font-weight: 100;
-    color: grey;
-    line-height: 1;
-    margin:4rem 7rem;
-    /* margin-top: 4rem; */
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries */
+
+/* Responsive styles for 1024px and smaller screens */
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    #setTimeBtn {
+        width: 90%;
+        margin-left: 2.5rem;
+    }
+
+    #statusMessage {
+        margin: 2rem 3rem;
+    }
+}
+
+/* Responsive styles for 768px and smaller screens */
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    #setTimeBtn {
+        width: 90%;
+        margin-left: 2.5rem;
+    }
+
+    #statusMessage {
+        margin: 2rem 3rem;
+    }
+}
+
+/* Responsive styles for 600px and smaller screens */
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 95%;
+    }
+
+    #setTimeBtn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #statusMessage {
+        margin: 2rem 1rem;
+    }
 }
