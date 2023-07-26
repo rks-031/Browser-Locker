@@ -153,7 +153,7 @@
     "message": "It locks the browser login for 3 minutes after 3 wrong login attempts."
   },
   "karanlik_mod": {
-    "message": "Dark Mod"
+    "message": "Dark Mode"
   },
   "sifremi_unuttum": {
     "message": "Password Recovery"
