@@ -1,5 +1,7 @@
 class BrowserLock {
-  static start(time) {
+  // static start(time) {
+  static start() {
+
     BrowserLock.__onCommand();
     BrowserLock.__onInstalled();
     BrowserLock.UnistalURL();
@@ -12,7 +14,7 @@ class BrowserLock {
       .then(() => {
         if (localStorage.KilitAcik === "true") {
           setTimeout(() => {
-            BrowserLock.Lock(time);
+            BrowserLock.Lock();
           }, 1500);
         } else {
           notification.sifreuyar();
@@ -29,14 +31,14 @@ class BrowserLock {
     chrome.runtime.setUninstallURL(url);
   }
   //Tarayıcıyı Kilitle
-  static Lock(time) {
+  static Lock() {
     try {
       util.StorageSet("kilit__giris", "true").then((resolve) => {
         const { KilitAcik, KilitEkran, Kilitli } = localStorage;
         if (KilitAcik === "true") {
           if (KilitEkran != "true" && Kilitli != "false") {
               // Set the idle time (in milliseconds) after which the extension will activate
-              const IDLE_TIME_THRESHOLD = time*60*1000; 
+              const IDLE_TIME_THRESHOLD = 60*1000; 
 
               let inactivityTimer;
 
@@ -258,4 +260,5 @@ class BrowserLock {
     });
   }
 }
+
 
