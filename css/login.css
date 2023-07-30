@@ -342,6 +342,7 @@ input[type="password"]:disabled {
 
 .count__down p {
     margin: 0;
+    color: white;
 }
 
 .hidden {
