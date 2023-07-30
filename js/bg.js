@@ -1,7 +1,6 @@
 class BrowserLock {
   // static start(time) {
   static start() {
-
     BrowserLock.__onCommand();
     BrowserLock.__onInstalled();
     BrowserLock.UnistalURL();
@@ -37,30 +36,38 @@ class BrowserLock {
         const { KilitAcik, KilitEkran, Kilitli } = localStorage;
         if (KilitAcik === "true") {
           if (KilitEkran != "true" && Kilitli != "false") {
-              // Set the idle time (in milliseconds) after which the extension will activate
-              const IDLE_TIME_THRESHOLD = 60*1000; 
+            // Set the idle time (in milliseconds) after which the extension will activate
+            const IDLE_TIME_THRESHOLD = 60 * 1000;
 
-              let inactivityTimer;
+            let inactivityTimer;
 
-              function resetTimer() {
+            function resetTimer() {
               clearTimeout(inactivityTimer);
-              inactivityTimer = setTimeout(activateExtension, IDLE_TIME_THRESHOLD);
-              }
+              inactivityTimer = setTimeout(
+                activateExtension,
+                IDLE_TIME_THRESHOLD
+              );
+            }
 
-              function activateExtension() {
+            function activateExtension() {
               // Your code to activate the extension goes here
               console.log("Extension activated after 3 minutes of inactivity.");
-              chrome.windows.getAll({
-                  populate: true
-              }, Pencere => {
+              chrome.windows.getAll(
+                {
+                  populate: true,
+                },
+                (Pencere) => {
                   if (Pencere.length > 0) {
-                      localStorage.KayitliPencereler = JSON.stringify(Pencere);
-                      BrowserLock.GirisEkrani().then(() => util._removeOpenWindows());
+                    localStorage.KayitliPencereler = JSON.stringify(Pencere);
+                    BrowserLock.GirisEkrani().then(() =>
+                      util._removeOpenWindows()
+                    );
                   }
-              });
-              }
+                }
+              );
+            }
 
-              function setupActivityTracking() {
+            function setupActivityTracking() {
               // Add event listeners to track user activity
               document.addEventListener("mousemove", resetTimer);
               document.addEventListener("keydown", resetTimer);
@@ -69,17 +76,17 @@ class BrowserLock {
 
               // Start the initial timer
               resetTimer();
-              }
-
-              // Call the setup function when the extension is loaded
-              setupActivityTracking(); 
             }
+
+            // Call the setup function when the extension is loaded
+            setupActivityTracking();
           }
+        }
       });
-  } catch (error) {
+    } catch (error) {
       console.log(error);
+    }
   }
-}
 
   static GirisEkrani() {
     return new Promise((resolve) => {
@@ -260,5 +267,3 @@ class BrowserLock {
     });
   }
 }
-
-
