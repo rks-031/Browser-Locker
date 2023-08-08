@@ -9,6 +9,7 @@
 
 # Workflow of the extension
 
-https://github.com/rks-031/Browser-Locker/assets/103258259/e969a2b5-ce28-4371-8dfe-41c2da689945
+https://github.com/rks-031/Browser-Locker/assets/103258259/8d1a77fd-fe8d-433f-9421-e4a31a060dd9
+
 
 
