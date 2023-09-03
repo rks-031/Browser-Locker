@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Change -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src *;"> -->
+
     <title lblm="html" text="uygulama_baslik"></title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
@@ -15,9 +18,14 @@
   </head>
 
   <body id="login__body">
+
     <!-- Password Recovery Screen -->
+
     <section class="pass_root kapali">
       <div class="pass_root_container">
+        <!-- <div>
+          <h1>Hello</h1>
+        </div> //that send email screen -->
         <div class="bars__location">
           <i id="ekranAc" class="fa fa-bars kapali"></i>
         </div>
@@ -26,6 +34,9 @@
           <div class="form__container">
             <div class="recovery__title">
               <h1 lblm="html" text="sifremi_unuttum"></h1>
+              <!-- <div>
+                <h1>Hello</h1>
+              </div> //heading -->
               <div class="alt__title">
                 <span lblm="html" text="sifre_kurtarma_aciklama"></span>
               </div>
@@ -38,6 +49,9 @@
                   text="epostani_gir"
                   uyari=""
                 >
+                <!-- <div>
+                  <h1>Hello</h1>
+                </div> //above email i/p -->
                   <input
                     id="recovery__input"
                     class="recovery__input"
@@ -48,6 +62,9 @@
                   <div id="antibotDogrula"></div>
                 </div>
                 <div class="button__area">
+                  <!-- <div>
+                    <h1>Hello</h1>
+                  </div> //space around btn-->
                   <!-- <div class="recaptcha__text">
                     <span
                       >This extension is protected by reCAPTCHA and the Google
@@ -73,6 +90,9 @@
                       class="tarayici__btn slider__effect"
                       name="submit"
                     >
+                    <!-- <div>
+                      <h1>Hello</h1>
+                    </div> //inside button -->
                       <span class="btn__text" lblm="html" text="gonder"></span>
                       <div class="form__loading hidden">
                         <div style="--delay: 0.1s"></div>
@@ -80,8 +100,24 @@
                         <div style="--delay: 0.3s"></div>
                       </div>
                     </button>
-                  </div>
+                      <button
+                        id="verify_btn_field"
+                        class="tarayici__btn slider__effect"
+                        name="submit"
+                      >
+                      <!-- <div>
+                        <h1>Hello</h1>
+                      </div> //inside button -->
+                        <span class="btn__text" lblm="html" text="verifyBtn"></span>
+                        <div class="form__loading hidden">
+                          <div style="--delay: 0.1s"></div>
+                          <div style="--delay: 0.2s"></div>
+                          <div style="--delay: 0.3s"></div>
+                        </div>
+                      </button>
+
                 </div>
+                <div id="message" class="message"></div>
               </form>
             </div>
           </div>
@@ -212,6 +248,51 @@
         </div>
       </div>
     </section>
+    <!-- Changes -->
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+    <script>
+      document.getElementById('recovery_btn_field').addEventListener('click', function() {
+          // Generate a random password
+          // console.log("Clicked");
+          const newPassword = generateRandomPassword();
+
+          // Send the password to the user's email (simulated here)
+          const email = document.getElementById('recovery__input').value;
+          sendPasswordByEmail(email, newPassword);
+
+          alert('A new password has been sent to your email address.');
+      });
+
+      function generateRandomPassword() {
+          const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+          let password = "";
+          for (let i = 0; i < 10; i++) {
+              const randomIndex = Math.floor(Math.random() * charset.length);
+              password += charset.charAt(randomIndex);
+          }
+          return password;
+      }
+
+      function sendPasswordByEmail(email, password) {
+          // Simulate sending an email (replace with actual email sending code)
+          // console.log(`Sending password to ${email}: ${password}`);
+          Email.send({
+        Host: "smtp.gmail.com",
+        Username: "sender@email_address.com",
+        Password: "Enter your password",
+        To: '${email}',
+        From: "sender@email_address.com",
+        Subject: "Sending Email using javascript",
+        Body: "Recovery code is ${password}",
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
+
+      }
+  </script> -->
+    <!-- Changes -->
     <script src="../js/lib/jquery.js"></script>
     <script src="../js/lib/jquery-confirm.js"></script>
     <script src="../js/lib/md5.js"></script>
@@ -219,5 +300,9 @@
     <script src="../js/kalanhak.js"></script>
     <script src="../js/util.js"></script>
     <script src="../js/htmljs/login.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <script src="../js/smtp.js"></script>
+
+    <script src="../js/recovery.js"></script>
   </body>
 </html>

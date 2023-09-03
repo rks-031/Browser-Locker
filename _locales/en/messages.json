@@ -179,6 +179,9 @@
   "gonder": {
     "message": "Send"
   },
+  "verifyBtn": {
+    "message": "Verify Code"
+  },
   "degistir": {
     "message": "Change"
   },

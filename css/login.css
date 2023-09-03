@@ -506,7 +506,19 @@ input[type="password"]:disabled {
 }
 
 .recovery__btn {
-    width: 30%;
+    /* width: 30%; */
+    display: flex;
+    /* margin: 0rem 1.5rem; */
+}
+
+#recovery_btn_field{
+    /* padding: auto; */
+    margin-right:1rem;
+}
+
+#verify_btn_field{
+    /* padding: auto; */
+    margin-left: 1rem;
 }
 
 .recaptcha__text {

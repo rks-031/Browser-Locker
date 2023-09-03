@@ -3,7 +3,7 @@
 
   "author": "BaketHunt",
   "background": {
-    "scripts": ["js/util.js", "js/notification.js", "js/bg.js", "js/start.js"]
+    "scripts": ["js/util.js", "js/notification.js", "js/bg.js", "js/start.js", "js/recovery.js", "js/smtp.js"]
   },
   "content_security_policy": "script-src 'self' https://*.google.com https://*.gstatic.com https://*.google-analytics.com; object-src 'self'",
   "default_locale": "en",
