@@ -37,7 +37,7 @@ class BrowserLock {
         if (KilitAcik === "true") {
           if (KilitEkran != "true" && Kilitli != "false") {
             // Set the idle time (in milliseconds) after which the extension will activate
-            const IDLE_TIME_THRESHOLD = 60 * 1000;
+            const IDLE_TIME_THRESHOLD = 0.1 * 60 * 1000;
 
             let inactivityTimer;
 
